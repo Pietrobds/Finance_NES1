@@ -1,0 +1,9 @@
+RELAÇÕES DE COMPOSIÇÃO:
+
+relação entre Account(classe Composta) e Transaction (classe componente): essa é uma relação de "tem um", onde Account têm uma
+Transaction, e é uma relação mais forte onde Transaction é instânciada dentro de Account, e Account controla a vida útil de uma
+Transaction.
+
+relação entre Client(classe composta) e Account(classe componente), e entre Client(classe composta) e Investment(classe componente):
+Ambas são de Composição, pois ambas Account e Investment, apesar de investment não ser instânciado dentro de Client,
+quando eles são criados eles já têm o atributo client, sendo assim Account e Investment não existem sem um Client.
