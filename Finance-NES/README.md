@@ -7,7 +7,8 @@ Nome: Pietro Bezerra dos Santos
 - datautil (nativa do python)
 
 ## Instalação
-
+você pode instalar com:
+python setup.py install
 
 ## Exemplos
 Veja exemplos no arquivo examples.py
